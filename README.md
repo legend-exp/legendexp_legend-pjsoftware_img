@@ -1,8 +1,8 @@
 # LEGEND Software Stack Linux Container Image
 
-This repository contains the files necessary to generate a container image "legendexp/legend-software" that contains the open-source LEGEND software stack. The image is based on [`legendexp/legend-base:latest`](https://github.com/legend-exp/legendexp_legend-base_img/).
+This repository contains the files necessary to generate a container image "legendexp/legend-pjsoftware" that contains the open-source LEGEND software stack. The image is based on [`legendexp/legend-pjbase:latest`](https://github.com/legend-exp/legendexp_legend-pjbase_img/).
 
-In addition to `legendexp/legend-base`, the open-source software stack contains:
+In addition to `legendexp/legend-pjbase`, the open-source software stack contains:
 
 * [pygama](https://github.com/legend-exp/pygama)
 * [g4simple](https://github.com/legend-exp/g4simple)
@@ -15,6 +15,6 @@ Also, binaries of the following closed-source software are included:
 * [MGDO](https://github.com/mppmu/MGDO)
 * [MaGe](https://github.com/mppmu/MaGe)
 
-Builds of this image are [available on Dockerhub](https://hub.docker.com/r/legendexp/legend-software/).
+Builds of this image are [available on Dockerhub](https://hub.docker.com/r/legendexp/legend-pjsoftware/).
 
-See [`legendexp/legend-base`](https://github.com/legend-exp/legendexp_legend-base_img) for container usage instructions (substitute `legendexp/legend-software` for `legendexp/legend-base`).
+See [`legendexp/legend-pjbase`](https://github.com/legend-exp/legendexp_legend-pjbase_img) for container usage instructions (substitute `legendexp/legend-pjsoftware` for `legendexp/legend-pjbase`).

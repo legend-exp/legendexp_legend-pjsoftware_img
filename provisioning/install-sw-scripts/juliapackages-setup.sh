@@ -33,7 +33,6 @@ pkg_install() {
     export JULIA_PROJECT="${INSTALL_PREFIX}/base"
     echo -e '\n[CUDA_Runtime_jll]\nlocal = "true"\nversion = "local"' >> "${JULIA_PROJECT}/LocalPreferences.toml"
     julia -e 'import Pkg; Pkg.instantiate()'
-    julia -e 'import Pkg; Pkg.build("ROOT", verbose=true)'
 
     export JULIA_PKG_PRESERVE_TIERED_INSTALLED="true"
 
