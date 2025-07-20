@@ -1,4 +1,4 @@
-FROM legendexp/legend-base:latest
+FROM legendexp/legend-base:pixi
 
 # Note: use
 #
