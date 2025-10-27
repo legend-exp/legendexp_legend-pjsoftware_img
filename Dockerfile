@@ -17,10 +17,9 @@ RUN true \
 # Install LEGEND Python packages:
 
 RUN cd "$PIXI_GLOBALPRJ" && pixi add --pypi \
-    bottleneck==1.3.6 \
-    "pygama @ git+https://github.com/legend-exp/pygama@v2.2.4" \
-    "pylegendmeta @ git+https://github.com/legend-exp/pylegendmeta@v1.3.1" \
-    "pyfcutils @ git+https://github.com/legend-exp/pyfcutils@v0.2.4"
+    pygama==2.2.4 \
+    pylegendmeta==1.3.1 \
+    fcio==0.9.0
 
 
 # Install LEGEND Julia base packages:
