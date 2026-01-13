@@ -18,7 +18,7 @@ RUN true \
 
 RUN cd "$PIXI_GLOBALPRJ" && pixi add --pypi \
     pygama==2.2.4 \
-    pylegendmeta==1.3.1 \
+    pylegendmeta==1.3.5 \
     fcio==0.9.0
 
 
