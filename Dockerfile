@@ -17,9 +17,9 @@ RUN true \
 # Install LEGEND Python packages:
 
 RUN cd "$PIXI_GLOBALPRJ" && pixi add --pypi \
-    pygama==2.3.2 \
-    pylegendmeta==1.3.5 \
-    fcio==0.9.1
+    pygama==2.3.6 \
+    pylegendmeta==1.4.0 \
+    fcio==0.9.2
 
 
 # Install LEGEND Julia base packages:
